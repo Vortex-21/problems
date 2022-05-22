@@ -1,0 +1,15 @@
+Q)check if a number is a power of 2
+sol:
+#include<iostream>
+using namespace std;
+bool ispowerof2(int x)
+{
+ return  x && (!(x&(x-1)));
+}
+int main()
+{
+int x;
+cin>>x;
+cout<<ispowerof2(x)<<endl;
+
+return 0;}
