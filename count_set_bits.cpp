@@ -15,3 +15,4 @@ int main()
 
     cout<<noofsetbits(6)<<endl;
 }
+//Brian kernighans algorithm
